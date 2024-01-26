@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: Cormorant;
+    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf)
+}
+.layoutIndex {
+    display: grid;
+    grid-template-columns: 5% 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.header { 
+    grid-area: 1 / 1 / 2 / 3;
+    background-color: #202030;
+}
+#Menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+#Menu img{
+    height: 60px;
+    width: 60px;
+}
+#Menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 60px;
+    margin-right: 40px;
+}
+#Menu a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+#Menu a:hover{
+    color: #B0A990;
+}
+.MenuIzquierda { 
+    background-color: #202030;
+    grid-area: 2 / 1 / 3 / 2;
+    
+}
+.MenuIzquierda ul{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: -15px;
+    
+}
+.MenuIzquierda a{
+    text-decoration: none;
+    color:#fff;
+
+}
+.Publicaciones{ 
+    grid-area: 2 / 2 / 3 / 3;  
+
+}
+.footer { 
+    grid-area: 3 / 1 / 4 / 3; 
+    background-color: #202030;
+}
+#footerindex{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+#footerindex ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-left: -40px;
+}
+#footerindex a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+#footerindex p{
+    color: #fff;    
+    font-size: 0.8rem;
+    margin-top: 10px;
+    justify-content: center;
+}
+#footerindex a:hover{
+    color: #B0A990;
+}
+
+.layoutLogin{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/mclaren-765lt.webp); 
+    background-size: cover; 
+}
+.headerLogin{
+    background-color: #202030a0;
+}
+
+#MenuLogin{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+#MenuLogin img{
+    height: 60px;
+    width: 60px
+}
+#MenuLogin ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 60px;
+    margin-right: 40px;
+    margin-top: 20px;
+    
+}
+#MenuLogin a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+#MenuLogin a:hover{
+    color: #B0A990;
+}
+
+#FormLogin{
+    display: flex;
+    justify-content: center;
+    padding-top: 92px;
+    height: 384px;
+    
+
+}
+#FormLogin fieldset{
+    background-color: #202030a0;
+    border-radius: 20px;
+    border-style: none;
+}
+#FormLogin p{
+    font-size: 2rem;
+    color: #fff;;
+    display: flex;
+    padding-top: 30px;
+    padding-right: 100px;
+    font-weight: 900;
+}
+#LetrasLogin{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+#LetrasLogin a{
+    margin-left: 80px;
+    
+}
+#LetrasLogin img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+#DatosLogin div{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 900;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+input{
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 10px;
+    height: 30px;
+    background-color: #fff;
+}
+.Login button{
+    display: flex;
+    flex-direction: ;
+}
+.footerLogin{
+    background-color: #202030a0;
+}
+#footerindex{
+    padding: 20px;
+}
+  
+  
+  
+
+
+  
