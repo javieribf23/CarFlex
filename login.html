@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Actividad 4/css/style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Cormorant+Garamond?sort=popularity&subset=latin-ext&noto.lang=cs_Latn">
+    <title>Login</title>
+</head>
+<body class="layoutLogin">
+    <header class="headerLogin">
+        <section id="MenuLogin">
+            <a href="../Actividad 4/index.html"><img src="../Actividad 4/img/Logo_Car_Flex.webp" alt="Logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="../Actividad 4/login.html">Login</a></li>
+                    <li><a href="../Actividad 4/registre.html">Registre</a></li>
+                    <li><a href="../Actividad 4/perfil.html">Perfil</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <section class="Login">
+        <form action="Login" id="FormLogin">
+            <fieldset>
+                <div id="LetrasLogin">
+                    <a href="../Actividad 4/index.html"><img src="../Actividad 4/img/Logo_Car_Flex.webp" alt="Logo"></a>
+                    <p>Login</p>
+                </div>
+                <div id="DatosLogin">
+                    <div class="Obligatorio">
+                        <label for="Usuario">Nombre de usuario: </label>
+                        <input type="text" placeholder="Nombre de usuario" required pattern="[a-zA-Z'-]{3,64}">
+                    </div>
+                    <div class="Obligatorio">
+                        <label for="Contraseña">Contraseña: </label>
+                        <input type="text" placeholder="Contraseña" required pattern="[a-zA-Z'-]{3,64}">
+                    </div>
+                </div>
+                <button type="submit">Entrar</button>
+            </fieldset>
+        </form>
+    </section>
+    <footer class="footerLogin">
+        <section id="footerindex">
+            <nav>
+                <ul>
+                    <li><a href="#">Aviso Legal</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Política de cookies</a></li>
+                </ul>
+            </nav>
+            <div>
+                    <p>2024 © Javier Figueroa Vicente.</p>    
+            </div>
+        </section>
+    </footer>      
+</body>
+</html>
